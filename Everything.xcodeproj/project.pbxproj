@@ -14,6 +14,7 @@
 		D2610C4B28FC93F900A02A36 /* EverythingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2610C4A28FC93F900A02A36 /* EverythingTests.swift */; };
 		D2610C5528FC93F900A02A36 /* EverythingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2610C5428FC93F900A02A36 /* EverythingUITests.swift */; };
 		D2610C5728FC93F900A02A36 /* EverythingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2610C5628FC93F900A02A36 /* EverythingUITestsLaunchTests.swift */; };
+		D2610C6428FC96C400A02A36 /* SimulatorDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2610C6328FC96C400A02A36 /* SimulatorDataAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D2610C5028FC93F900A02A36 /* EverythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2610C5428FC93F900A02A36 /* EverythingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverythingUITests.swift; sourceTree = "<group>"; };
 		D2610C5628FC93F900A02A36 /* EverythingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverythingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2610C6328FC96C400A02A36 /* SimulatorDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorDataAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D2610C3928FC93F800A02A36 /* EverythingApp.swift */,
 				D2610C3B28FC93F800A02A36 /* ContentView.swift */,
+				D2610C6328FC96C400A02A36 /* SimulatorDataAccess.swift */,
 				D2610C3D28FC93F900A02A36 /* Assets.xcassets */,
 				D2610C3F28FC93F900A02A36 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2610C3C28FC93F800A02A36 /* ContentView.swift in Sources */,
+				D2610C6428FC96C400A02A36 /* SimulatorDataAccess.swift in Sources */,
 				D2610C3A28FC93F800A02A36 /* EverythingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
